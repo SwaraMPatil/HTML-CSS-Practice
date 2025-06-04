@@ -31,5 +31,5 @@ This repository contains a collection of mini-projects and practice files create
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/html-css-practice.git
+   git clone  https://github.com/SwaraMPatil/HTML-CSS-Practice.git
    cd html-css-practice
