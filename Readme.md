@@ -1,5 +1,4 @@
-# 🌐 HTML & CSS Practice Projects
-
+# 🌐 HTML & CSS Practice
 This repository contains a collection of mini-projects and practice files created to strengthen my skills in **HTML5** and **CSS3**. Each project is built with the goal of mastering layout, design, responsiveness, and styling fundamentals.
 
 ---
