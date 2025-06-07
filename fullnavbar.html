@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .main {
+            background-color: gainsboro;
+
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            display: inline-block;
+         }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            background-color: rgb(196, 173, 217);
+            border: 2px solid black;
+            color: aliceblue;
+
+        }
+
+        li .dropdown a:hover {
+            background-color: black;
+
+        }
+
+        li .dropdown {
+            display: inline-block; 
+        } 
+
+         .dropdown-options {
+            display: none;
+            position: absolute;
+        }  
+
+          
+        li a:hover {
+            background-color: black;
+
+        }  
+ 
+        li.dropdown a.dropbutton {
+            background-color: hotpink;
+        }
+
+        li.dropdown a.dropbutton:hover {
+
+            background-color: gainsboro;
+            color: black;
+        }
+
+        li.dropdown:hover .dropdown-options {
+            background-color: azure;
+            display: block;
+        }
+
+
+       
+       .dropdown-options a{
+        display: block;
+        color: aliceblue;
+        background-color: aqua;
+       }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <ul>
+            <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+            <li class="dropdown"><a href="" class="dropbutton">Fashion</a>
+                <div class="dropdown-options">
+                    <a href="">men's clothing</a>
+                    <a href="">women's clothing</a>
+                    <a href="">accessories</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
