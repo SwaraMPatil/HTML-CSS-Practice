@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        form {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 10px;
+            background-color: floralwhite;
+
+
+        }
+
+        #firstname,
+        #surname,
+        #address,
+        #contact,
+        #city,
+        #email {
+            width: 100%;
+            padding: 5px;
+            margin: 0;
+            border-radius: 4px;
+        }
+
+        #resetbutton,
+        #submitbutton {
+            background-color: cadetblue;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        #resetbutton:hover, #submitbutton:hover{
+            background-color: aquamarine;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- student admission form-
+    name
+    contact
+    email
+    city
+    address
+
+    education
+    courses
+    previous marksheet
+    admission year
+    passout year
+
+    submit -->
+
+    <form autocomplete="off">
+        <h2>Student Application Form</h2>
+
+        <fieldset>
+            <legend>Student Information</legend>
+            <label for="first">First-name</label>
+            <input type="text" name="first-name" id="firstname"><br><br>
+
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" <br><br>
+
+
+            <label for="contact">Contact no.</label>
+            <input type="text" name="contact" id="contact" placeholder="Only 10 digits" maxlength="10"><br><br>
+
+            <label for="city">City</label>
+            <input type="text" name="city" id="city"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com"><br><br>
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address"></textarea>
+
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Education</legend>
+            <!-- <label for="courses">Courses</label> -->
+            <!-- <input type="text" name="" id=""><br><br> -->
+
+            <label for="courses">Courses</label>
+            <select name="courses" id="courses">
+                <option value="uiux">UI/UX</option>
+                <option value="mern">MERN</option>
+                <option value="python">PYTHON</option><br><br>
+
+            </select><br>
+
+            <label for="marksheet">Previous marksheet</label>
+            <input type="file" name="" id=""><br>
+
+            <label for="passoutyr">Passout year</label>
+
+            <input type="date" name="" id="">
+
+
+        </fieldset>
+
+        <input type="reset" value="reset" id="resetbutton">
+        <input type="submit" value="submit" id="submitbutton">
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+</html>
