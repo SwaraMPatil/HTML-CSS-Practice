@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+Marquee tag directions-
+Up
+left
+right
+down
+
+behaviour- 
+scrolling
+slide
+alternate
+
+scrollamount
+scrolldelay
+loop
+hspace 
+vspace
+
+html entites-
+https://html.spec.whatwg.org/multipage/named-characters.html
+https://www.toptal.com/designers/htmlarrows/symbols/
+
+css types-
+Inline css
+Internal css
+External css
+
+Css colors-
+1.RGB(0-255)
+2.RGBA
+3.HSL/HSLA
+
+Hue- measured degree(360) 0-360% (red-(360) green(240) blue )
+saturation- % value (0%) 0-light, full grey 100%(full color)
+lightness-0.1 1.0
+opacity-
+4.Predefined colors
+5.current colors
+6.hexadecimal colors(RR,GG,BB)
+7.hexadecimal tranparency
+
+
+Id(unique)
+/Class
+
+border width-
+thin
+thick
+medium
+length
+
+Ordered list
+Unordered list
+Definition list
+Nested list
+
+Position properties-
+1.Static- Bydefault left/right/top/bottom=0
+2.Relative-flow according to document
+3.Absolute-
+4.Sticky- 
+5.Fixed
+
+left,right,top,bottom
+
+text position-
+center
+top-left
+top-right
+bottom-left
+bootm-right
+
+display property-
+Inline
+inline-block
+none
+block
+
+font awesome link-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+
+
+animation properties-
+animation name
+animation duration
+delay
+iteration count
+direction
+play state
+timing function
+fullmode
+
+css
+keyframes
+
+linear-linear (constant)
+ease- slow start- fast- slow end bydefault value
+ease-in-slow start
+ease-out-slow end
+ease-in-out-slow end -start
+cubic
+step
+
+tranform properties
+rotate
+scale
+translate
+skew
+skewx/y
+matrix (scalex, skewX, skewY, scaleY, transformX, transformY)
+
+scaling 1(no scaling) 0
+skew 0(skewing) 1
+
+
+rotatex/y/z
+scale x/y/z
+
+linear
+radial farthest -corner, closest-corner, closest side(ellipse,circle)
+conic
+
+
+login form-
+name
+username
+password
+submit
+
+registration form-
+name
+email
+contact
+address
+set password
+confirm password
+submit
+
+svg- scalable vector graphics-
+circle
+rectangle
+ellipse
+polyline
+line
+polygon
